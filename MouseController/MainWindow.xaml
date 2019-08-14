@@ -1,0 +1,25 @@
+﻿<Window x:Name="MouseController" x:Class="MouseController.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MouseController"
+        mc:Ignorable="d"
+        Title="Mouse Controller - der3318" Height="450" Width="400" ResizeMode="NoResize" Topmost="True">
+    <Grid Background="#FF888888">
+        <Label x:Name="Hint1" Margin="10,10,10,370" Content="(1) SET__X__Y = Set Cursor to (X,Y)" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+        <Label x:Name="Hint2" Margin="10,35,10,345" Content="(2) MOD__dX__dY = Set Cursor to (X+dX,Y+dY)" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+        <Label x:Name="Hint3" Margin="10,60,10,320" Content="(3) DOWN = Press the Mouse" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+        <Label x:Name="Hint4" Margin="10,85,10,295" Content="(4) UP = Release the Mouse" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+        <Label x:Name="Hint5" Margin="10,110,10,270" Content="(5) CLICK = Press and Release Sequentially" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+        <Label x:Name="Hint6" Margin="10,135,10,245" Content="[ Use Spaces as Delimiter]" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+        <TextBox x:Name="Commands" Margin="10,160,10,100" TextWrapping="Wrap" Text="&gt;_  Input Commands Here..." Background="Black" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+        <Button x:Name="Start" Content="Click toStart / Shake to Interrupt" Margin="40,0,40,40" Background="#FFEEEEEE" Foreground="#FF222222" VerticalAlignment="Bottom" FontFamily="Comic Sans MS" FontSize="16" Click="Start_Click"/>
+        <Label Content="Interval (ms)" HorizontalAlignment="Left" Margin="20,0,0,70" VerticalAlignment="Bottom" FontFamily="Comic Sans MS" FontSize="14"/>
+        <Label Content="Repeat (times)" HorizontalAlignment="Left" Margin="210,0,0,70" VerticalAlignment="Bottom" FontFamily="Comic Sans MS" FontSize="14"/>
+        <TextBox x:Name="Interval" HorizontalAlignment="Left" Margin="120,0,0,75" TextWrapping="Wrap" Text="500" VerticalAlignment="Bottom" FontFamily="Consolas" FontSize="14" Width="50"/>
+        <TextBox x:Name="Repeat" HorizontalAlignment="Left" Margin="320,0,0,75" TextWrapping="Wrap" Text="1" VerticalAlignment="Bottom" FontFamily="Consolas" FontSize="14" Width="50"/>
+        <Label x:Name="CursorStatus" Margin="0,385,80,0" Content="Cursor Position = (0,0)" Background="#FFDDDDDD" Foreground="Green" FontFamily="Consolas" FontSize="14" Padding="5,5,5,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+        <Label x:Name="RepeatStatus" Margin="290,385,0,0" Content="Round -" Background="#FFDDDDDD" Foreground="Green" FontFamily="Consolas" FontSize="14" Padding="5,5,5,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+    </Grid>
+</Window>
