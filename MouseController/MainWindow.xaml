@@ -14,7 +14,7 @@
         <Label x:Name="Hint5" Margin="10,110,10,270" Content="(5) CLICK = Press and Release Sequentially" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
         <Label x:Name="Hint6" Margin="10,135,10,245" Content="[ Use Spaces as Delimiter]" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
         <TextBox x:Name="Commands" Margin="10,160,10,100" TextWrapping="Wrap" Text="&gt;_  Input Commands Here..." Background="Black" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
-        <Button x:Name="Start" Content="Click toStart / Shake to Interrupt" Margin="40,0,40,40" Background="#FFEEEEEE" Foreground="#FF222222" VerticalAlignment="Bottom" FontFamily="Comic Sans MS" FontSize="16" Click="Start_Click"/>
+        <Button x:Name="Start" Content="Click to Start / Shake to Interrupt" Margin="40,0,40,40" Background="#FFEEEEEE" Foreground="#FF222222" VerticalAlignment="Bottom" FontFamily="Comic Sans MS" FontSize="16" Click="Start_Click"/>
         <Label Content="Interval (ms)" HorizontalAlignment="Left" Margin="20,0,0,70" VerticalAlignment="Bottom" FontFamily="Comic Sans MS" FontSize="14"/>
         <Label Content="Repeat (times)" HorizontalAlignment="Left" Margin="210,0,0,70" VerticalAlignment="Bottom" FontFamily="Comic Sans MS" FontSize="14"/>
         <TextBox x:Name="Interval" HorizontalAlignment="Left" Margin="120,0,0,75" TextWrapping="Wrap" Text="500" VerticalAlignment="Bottom" FontFamily="Consolas" FontSize="14" Width="50"/>
