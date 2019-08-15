@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MouseController"
         mc:Ignorable="d"
-        Title="Mouse Controller - der3318" Height="450" Width="400" ResizeMode="NoResize" Topmost="True">
+        Title="Mouse Controller - der3318 (20190814)" Height="450" Width="400" ResizeMode="NoResize" Topmost="True">
     <Grid Background="#FF888888">
         <Label x:Name="Hint1" Margin="10,10,10,370" Content="(1) SET__X__Y = Set Cursor to (X,Y)" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
         <Label x:Name="Hint2" Margin="10,35,10,345" Content="(2) MOD__dX__dY = Set Cursor to (X+dX,Y+dY)" Background="#FF444444" Foreground="White" FontFamily="Consolas" FontSize="14" Padding="20,5,20,5" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
