@@ -1,6 +1,6 @@
 ## Windows Presentation Foundation - Mouse Controller
 ### Description
-The project builds an WPF application that would simulate a set of mouse events in Windows OS. Users are able to setup the controller using five commands sequentially and indicate the intervals between the commands. The tool is designed for automation in games and routine works.
+The project builds a WPF application that would simulate a set of mouse events in Windows operating system. Users are able to setup the controller using five commands sequentially and indicate the intervals between the commands. The tool is designed for automation in games and routine works.
 
 
 ### Build
@@ -29,4 +29,5 @@ The prebuild executable file `MouseController.exe` is available for Windows 7, W
 
 ### Demo
 ![Imgur](https://i.imgur.com/qpUNGWx.gif)
+
 
